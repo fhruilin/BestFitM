@@ -1,0 +1,15 @@
+Package: BestFitM
+Type: Package
+Title: Best fitting model
+Version: 1.0.0
+Date: 2021-07-19
+Author: Ruilin Huang
+Maintainer: Ruilin Huang <fhruilin@163.com>
+Description: This package selects the best-fit model by comparing AIC and BIC.
+    Currently, seven basic fitting models are supported. The seven basic models
+    include one simple linear fitting model, one quadratic curve model,
+    one logarithmic model, two exponential models, and two power-law models.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
