@@ -9,7 +9,9 @@ devtools::install_github("fhruilin/BestFitM")
 
 # example
 library(BestFitM)
+
 data("mtcars")
+
 bestFitM(data= mtcars, x= "mpg", y = "disp")
 
 ![image](https://user-images.githubusercontent.com/50893444/126153624-7b74ff97-08b0-4ea0-8c1e-10938a0d98ea.png)
